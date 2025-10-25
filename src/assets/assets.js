@@ -34,6 +34,7 @@ import codryx_logo from './Codryx.logo.png'
 import champion_1 from './champion_1.jpg'
 import champion_2 from './champion_2.jpg'
 import champion_3 from './champion_3.jpg'
+import agency_photo from './agency_photo.jpg'
 
 
 
@@ -77,13 +78,14 @@ const assets = {
   codryx_logo,
   champion_1,
   champion_2,
-  champion_3
+  champion_3,
+  agency_photo
 }
 
 export default assets
 
 export const teamData = [
-  { name: 'lami', title: 'Web Developer', image: 'src/assets/antots.png' },
-  { name: 'sawi', title: 'Mobile Developer', image: 'src/assets/toby.png' },
-  { name: 'nibba', title: 'Web Developer', image: 'src/assets/emman.png' },
+  { name: 'Anthony Dagamac', title: 'Web Developer', image: 'src/assets/antots.png' },
+  { name: 'Jose Mario Tobias', title: 'Mobile Developer', image: 'src/assets/toby.png' },
+  { name: 'Herman Benamira', title: 'Web Developer', image: 'src/assets/emman.png' },
 ]

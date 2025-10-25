@@ -7,19 +7,19 @@ const OurWork = () => {
 
     const workData = [
         {
-            title: 'Champion Second Year!',
-            description: 'Muntik pa maluto',
-            image: assets.champion_1
+            title: 'Mobile app marketing',
+            description: 'We turn bold ideas into powerful digital solutions that connect, engage...',
+            image: assets.work_mobile_app
         },
         {
-            title: 'Champion Third Year!',
-            description: 'Easy Basic',
-            image: assets.champion_2
+            title: 'Dashboard management',
+            description: 'We help you execute your plan and delive results.',
+            image: assets.work_dashboard_management
         },
         {
-            title: 'Champion Fourth Year!',
-            description: 'Antots retirement',
-            image: assets.champion_3
+            title: 'Fitness app promotion',
+            description: 'We help you create a marketing strategy that drives results.',
+            image: assets.work_fitness_app
         },
     ]
 
@@ -30,7 +30,7 @@ const OurWork = () => {
     viewport={{ once: true }}
     transition={{ staggerChildren: 0.2 }}
     id='our-work' className='flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 text-gray-700 dark:text-white'>
-        <Title title='LFT : MASIPAG KAME DI KAME TAMAD' desc='From strategy to execution, we craft digital solutions that move your business forward.' />
+        <Title title='Our latest work' desc='From strategy to execution, we craft digital solutions that move your business forward.' />
 
         <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-5xl'>
             {

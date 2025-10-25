@@ -34,12 +34,12 @@ const Services = () => {
         initial='hidden'
         whileInView='visible'
         viewport={{ once: true}}
-        transition={{ staggerChildren: 0.2}}
+        transition={{ staggerChildren: 0}}
     id='services' className='relative flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 text-gray-700 dark:text-white'>
 
         <img src={assets.bgImage2} alt="" className='absolute -top-110 -left-70 -z-1 dark:hidden'/>
         
-        <Title title='PROBLEMA MO BOI!?' desc='From strategy to execution, we craft digital solutions that move your business forward.'/>
+        <Title title='How can we help?' desc='From strategy to execution, we craft digital solutions that move your business forward.'/>
 
         <div className='flex flex-col md:grid grid-cols-2'>
             {servicesData.map((service, index)=>(
